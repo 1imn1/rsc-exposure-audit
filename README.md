@@ -1,6 +1,11 @@
 # rsc-exposure-audit
 Black-box exposure audit for Next.js / React Server Components (RSC) endpoints (non-exploit).
 
+#CVE-2025-55182 
+#CVE-2025-55183
+#CVE-2025-55184
+#CVE-2025-67779 
+
 Этот репозиторий содержит утилиты для безопасной (non-exploit) проверки публичной экспозиции React Server Components / Flight-протокола и связанной поверхности атак в приложениях Next.js.
 
 Что делает:
@@ -12,3 +17,4 @@ Black-box exposure audit for Next.js / React Server Components (RSC) endpoints (
 	•	Не выполняет эксплуатационные проверки.
 	•	Не отправляет PoC-пейлоады для RCE/DoS/утечки исходников.
 	•	Не подтверждает уязвимость конкретных CVE “по сети” — только фиксирует экспозицию и условия риска. Для точного статуса требуется сверка версий react-server-dom-* и next внутри окружения.
+
